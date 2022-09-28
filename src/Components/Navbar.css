@@ -1,0 +1,89 @@
+.list{
+    color: white;
+    list-style: none;
+    display: flex;
+    font-weight: 500;
+    width: 100%;
+}
+
+.list li {
+    margin-left: 10px;
+    font-size: small;
+}
+
+div .nav-btn1{
+    padding:5px;
+    cursor:pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+}
+
+div .nav-btn2{
+    padding:5px;
+    cursor:pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+}
+
+@media (max-width:670px){
+    div .nav-btn1{
+       visibility: visible;
+       opacity: 1;
+       color: rgb(3, 3, 70);
+       font-size: 25px;
+    }
+
+    div .nav-btn2{
+        visibility: visible;
+        opacity: 1;
+        color: white;
+        font-size: 35px;
+    }
+
+
+    .list {
+        position: fixed;
+        top: 0;
+        left: 60%;
+        height: 60%;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap:1.5rem;
+        background-color: white;
+        transition: 0s;
+        transform: translateX(100vh);
+        z-index: 10;
+    }
+
+    .list li{
+        color: rgb(3, 3, 70);
+    }
+
+    .list li a{
+        text-decoration: none;
+    }
+
+
+    div .responsive_nav{
+        transform: none;
+        transition: 2s;
+    }
+
+    .nav-close-btn{
+        position: absolute;
+        top:2rem;
+        right: 2rem;
+    }
+    
+}

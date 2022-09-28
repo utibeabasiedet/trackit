@@ -1,0 +1,39 @@
+.our-services {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding: 3%;
+}
+
+.our-services h3{
+    color: red;
+    padding: 2%;
+}
+
+.our-services span {
+    padding: 2%;
+    font-size: 30px;
+}
+
+.our-services span b{
+    color: black;
+    font-weight: 1000;
+    font-size: 30px;
+}
+
+.our-services p{
+    padding: 2%;
+}
+
+.branch{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width:960px) {
+    .our-services{
+        width: 90%;
+    }
+}

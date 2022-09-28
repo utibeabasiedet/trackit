@@ -1,0 +1,61 @@
+
+
+.tv{
+    position: absolute;
+    height: 100px;
+    width: 75%;
+    padding: 20px 0 10px 0;
+    margin-top: 150px;
+    top: -120px;
+    left: 13%;
+    border: 5px white solid;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    object-fit: contain;
+    z-index: 10;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.b1{
+    position: relative;
+    width: 23%;
+    height: auto;
+}
+
+@media (max-width:960px) {
+    .b1{
+        width: 45%;
+    }
+
+    .tv{
+        width: 50%;
+        left: 25%;
+    }
+}
+
+@media (max-width:700px) {
+    .b1{
+        width: 80%;
+    }
+
+    .tv{
+        width: 40%;
+        left: 30%;
+    }
+
+    .b1 .b2{
+        width: 100%;
+    }
+}
+
+.b1 .b2{
+    position: relative;
+    background-color: rgb(3, 3, 70);
+    margin-top: 100px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    padding-top: 50px;
+}

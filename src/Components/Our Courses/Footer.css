@@ -1,0 +1,129 @@
+.ob{
+    background-color: #2a1661;
+    color: white;
+}
+
+.background{
+    background-color: #2a1661;
+    display: grid;
+    color: white;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px 10px 150px 10px;
+    /* grid-template-rows: auto 200px; */
+}
+
+.one{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.one .indiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: center;
+}
+
+.indiv a{
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.two{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.two .indiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: center;
+}
+
+.three{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.three .indiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+a:hover{
+    color: #a72955;
+}
+
+
+.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/4;
+}
+
+.hr{
+    height: 1px;
+    width: 100%;
+    background-color: white;
+}
+
+h6{
+    padding: 30px 0 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:960px) {
+    .background{
+        padding: 25px 10px 75px 10px;
+    }
+}
+
+@media (max-width:700px) {
+    .background{
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+    }
+
+    .one {
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 30px;
+
+    }
+
+    .two {
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 30px;
+    }
+
+    .three {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .one .indiv{
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-self: flex-start;
+    }
+
+    .two .indiv{
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-self: flex-start;
+    }
+}

@@ -1,0 +1,43 @@
+.courses{
+    margin-top: 60px;
+    background-color: #2a1661;
+    display: flex;
+    padding: 20px 20px 0 20px;
+}
+
+.me{
+    height: 95%;
+    width: 28rem;
+}
+
+.write-up{
+    padding-bottom: 30px;
+}
+
+.write-up p{
+    width: 100%;
+    color: white;
+}
+
+.write-up h3{
+    color: red;
+    width: fit-content;
+    padding-bottom: 20px;
+}
+
+.write-up h1{
+    color: white;
+    width: 80%;
+    padding-bottom: 10px;
+    font-size: 60px;
+}
+
+@media (max-width:960px) {
+    .courses{
+        flex-direction: column;
+    }
+
+    .me{
+        width: 100%;
+    }
+}

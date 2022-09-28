@@ -1,0 +1,309 @@
+
+.BrandPic-background{
+    background-color: rgb(3, 3, 70);
+    height: 75vh;
+}
+
+
+.xyz {
+    background-color: rgb(3, 3, 70);
+    width: 100%;
+}
+
+.img1{
+    width: 370px;
+    height: 290px;
+    position: absolute;
+    left: 55%;
+    top: 260px;
+    z-index: 4;
+}
+
+
+.img2{
+    width: 120px;
+    height: 400px;
+    position: absolute;
+    left: 71%;
+    top: 80px;
+}
+
+.img3{
+    width: 160px;
+    height: 220px;
+    position: absolute;
+    left: 79%;
+    top: 250px;
+}
+
+
+.BrandPic-text{
+    position: absolute;
+    color: white;
+    top: 250px;
+    padding-left: 50px;
+}
+
+ .BrandPic-background h2{
+    padding: 0;
+    margin-top: -100px;
+    font-size: 60px;
+}
+
+.BrandPic-background h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40px;
+    padding: 30px 0 30px 0;
+}
+
+.BrandPic-background p{
+    font-family: 'Source Serif Pro', serif;
+
+} 
+
+.BrandPic-background .one{
+    font-size: 20px;
+    padding: 30px 0 30px 0;
+} 
+
+.BrandPic-background .three {
+    font-size: 35px;
+    padding: 30px 0 30px 0;
+}
+
+.footer {
+    position: absolute;
+    margin-top: 430px;
+    color: white;
+    font-size: small;
+    width: 400px;
+    padding-left: 50px;
+}
+
+@media (max-width: 1200px){
+    .xyz{
+        position: relative;
+        top: -30px;
+        left: 30px;
+    }
+
+    .img1{
+        width: 320px;
+        height: 240px;
+    }
+
+    .img2{
+        width: 100px;
+        height: 350px;
+    }
+
+    .img3{
+        width: 130px;
+        height: 170px;
+    }
+
+    .BrandPic-text{
+        top: 400px;
+    }
+
+    .BrandPic-background h2{
+        padding: 0;
+        margin-top: -100px;
+        font-size: 40px;
+    }
+    
+    .BrandPic-background h3{
+        font-size: 40px;
+        padding: 20px 0 20px 0;
+    }
+    
+    
+    .BrandPic-background .one{
+        font-size: 20px;
+        padding: 20px 0 10px 0;
+    } 
+    
+    .BrandPic-background .three {
+        font-size: 25px;
+        padding-top: 10px;
+        margin-left: -150px;
+    }
+
+    .footer {
+        margin-top: 350px;
+    }
+
+    .BrandPic-background{
+        background-color: rgb(3, 3, 70);
+        height: 75vh;
+    }
+}
+
+@media (max-width: 950px){
+    .xyz{
+        position: relative;
+        top: -30px;
+        left: 20px;
+    }
+
+    .BrandPic-text h2{
+        font-size: 30px;
+    }
+
+    .BrandPic-text .one{
+        font-size: 15px;
+    }
+
+    .BrandPic-background .three {
+        font-size: 20px;
+        padding-top: 10px;
+        margin-left: -100px;
+    }
+
+    .img3{
+        left: 82%; 
+        width: 100px;
+        height: 140px;  
+    }
+
+    .img1{
+        left: 50%;
+        width: 280px;
+        height: 200px;
+    }
+
+    .img2{
+        width: 90px;
+        height: 310px;
+    }
+}
+
+@media (max-width: 750px){
+    .BrandPic-text h2{
+        font-size: 25px;
+    }
+
+    .BrandPic-text .one{
+        font-size: 15px;
+    }
+
+    .BrandPic-background .three {
+        font-size: 20px;
+        padding-top: 10px;
+        margin-left: -100px;
+    }
+
+    .footer{
+        width: 300px;
+    }
+}
+
+@media (max-width: 700px){
+.BrandPic-background{
+    height: 100vh;
+}
+
+.xyz{
+    left: -30%;
+    top: -90px;
+}
+
+.BrandPic-text{
+    top: 630px;
+    align-items: center;
+}
+
+.footer{
+    margin-top: 520px;
+}
+
+.BrandPic-text .three{
+    margin-left: -1px;
+    padding: 0 0 0 0;
+    margin-top: -25px;
+}
+
+.BrandPic-background .one{
+    font-size: 20px;
+    padding: 5px 0 0px 0;
+}
+
+.BrandPic-background h2{
+    align-items: center;
+}
+
+}
+
+@media (max-width: 606px){
+    .BrandPic-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-right: 10%;
+    }
+
+    .BrandPic-text h2{
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 0;
+        margin-left: 0;
+        width: fit-content;
+        justify-content: center;
+        font-size: 2rem;
+    }
+
+    .BrandPic-text .one{
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 0;
+        margin-left: 0;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer{
+        padding: 0 0 0 5px;
+        margin-top: 540px;
+    }
+}
+
+@media (max-width: 420px){
+.BrandPic-background{
+    height: 100vh;
+}
+
+.xyz{
+    left: -45%;
+    top: -90px;
+}
+
+.xyz .img3{
+    left: 108%;
+}
+
+.xyz .img2{
+    left: 90%;
+}
+
+.xyz .img1{
+    left: 50%;
+}
+
+.footer{
+    padding: 0 0 0 10px;
+    margin-top: 530px;
+}
+}
+
+@media (max-width: 371px){
+    .BrandPic-text{
+        margin-left: -10%;
+    }
+}
+
+@media (max-width: 700px) and (min-width: 670px) {
+    .BrandPic-text{
+        top: 700px;
+    }
+}

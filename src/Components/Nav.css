@@ -1,0 +1,35 @@
+.nav-main{
+    background-color: rgb(3, 3, 70);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 1%;
+}
+
+.img {
+    width: 150px;
+    height: 60px;
+    border-radius: 110px;
+}
+
+@media (max-width: 1200px) {
+    .nav-main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img{
+        margin: 10px 0 30px 0;
+        width: 230px;
+        height: 90px;
+    }
+}
+
+@media (max-width:670px){
+    .nav-main{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+}

@@ -1,0 +1,69 @@
+.each{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.each1, .each2, .each3 {
+    text-align: center;
+
+}
+
+.each1 h4{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.each2 h3{
+    padding-top: 70px;
+}
+
+.each3{
+    width: fit-content;
+    align-self: center;
+    padding-top: 80px;
+}
+.each:hover{
+    background-image: linear-gradient(to right top, #8d2448, #a72955, #c22f61, #dd346e, #f9397b);
+    color: white;
+}
+
+.each:hover button{
+    background-image: linear-gradient(to right top, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
+    color: #a72955;
+    transition: 1s;
+}
+
+.each3 button{
+    padding: 5px;
+    border-radius: 15px;
+    border-style: none;
+    background-image: linear-gradient(to right top, #8d2448, #a72955, #c22f61, #dd346e, #f9397b);
+    color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.each3 button {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 1s;
+}
+
+@media (max-width:960px) {
+    .each{
+        width: 45%;
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width:700px) {
+    .each{
+        width: 90%;
+    }
+}
